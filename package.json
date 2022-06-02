@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@types/webpack": "^5.28.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "expose-loader": "^0.7.5",
+    "html-webpack-plugin": "^4.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.7.2",
+    "copy-webpack-plugin": "^6.4.1"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "web3": "^1.6.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server  --mode development ",
+    "build": "webpack --mode production    "
+  }
+}
